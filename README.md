@@ -4,16 +4,34 @@ A professional-grade, modular, and extensible Python-based network packet sniffe
 
 ---
 
-## 🚀 Features
+## ✨ Features
 
-- 📦 Real-time Packet Capturing using Scapy
-- 🔍 Protocol Detection (TCP, UDP, ICMP, RAW)
-- 🧠 Modular & Clean Codebase
-- 📂 Logs traffic with timestamped files
-- 📄 Detailed Packet Inspection
-- 🛑 Graceful Shutdown with KeyboardInterrupt
-- ⚙️ Auto-Creation of Log Directories
-- ✅ Robust Error & Exception Handling
+- 🎯 **Real-time Packet Capturing**  
+  Monitor live incoming and outgoing traffic with detailed insights.
+
+- 🔎 **Protocol Filtering**  
+  Filter packets by TCP, UDP, ICMP, ARP, HTTP, DNS, and more.
+
+- 📊 **Traffic Statistics**  
+  Live counters for packet count, data size, protocols, and session tracking.
+
+- 🛠️ **Modular & Extensible Architecture**  
+  Plug-and-play design for future protocol parsers or detection modules.
+
+- 💾 **Packet Export**  
+  Save captured packets to `.pcap` format for offline analysis.
+
+- 🧪 **Deep Packet Inspection**  
+  Extract payloads, headers, and flags from Layer 2–4.
+
+- 🔐 **Security-Oriented Add-ons**  
+  - Packet anomaly detection  
+  - Suspicious payload flagging  
+  - MAC/IP spoofing detection  
+  - ARP poisoning alerts
+
+- 🌈 **Rich Terminal UI**  
+  Styled with `rich` and `tabulate` for easy visualization.
 
 ---
 
@@ -30,4 +48,4 @@ Clone the repository and install required packages:
 ```bash
 git clone https://github.com/yourusername/advanced-packet-sniffer.git
 cd advanced-packet-sniffer
-pip install -r requirements.txt
+python sniffer.py
