@@ -46,6 +46,6 @@ A professional-grade, modular, and extensible Python-based network packet sniffe
 Clone the repository and install required packages:
 
 ```bash
-git clone https://github.com/yourusername/advanced-packet-sniffer.git
+git clone https://github.com/AyanMasih/Advanced-Network-Packet-Sniffer.git
 cd advanced-packet-sniffer
 python sniffer.py
